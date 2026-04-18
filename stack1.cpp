@@ -2,7 +2,7 @@
 #include<cstdlib>
 using namespace std;
 int a[5]; // global variable intialisation
-int i = 1;
+int i = -1;
 
 void myadd()
 {
