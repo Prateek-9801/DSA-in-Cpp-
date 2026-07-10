@@ -1,0 +1,22 @@
+{
+    "Group 1": [
+        {
+            "x": 515,
+            "y": 149,
+            "height": 749,
+            "width": 1079,
+            "color": "yellow",
+            "title": "How to upload coding files on GitHub",
+            "text": "Summary\nTo create a new GitHub repository and upload your code, you initialize a local Git repository, link it to the remote GitHub repository, and then push your files. For future changes, you only need to add, commit, and push. \n\nStep-by-Step Procedure\n\n1. Create a New Repository on GitHub\nGo to github.com and log in.\nClick the + icon and select \"New repository\". \nName it (e.g., new-project), choose Public/Private, and do not initialize with a README. \nClick \"Create repository\".\n\n2. Initialize and Push Your Local Project\nRun these commands in your project's terminal:\n\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit remote add origin https://github.com/Prateek-9801/new-project.git\ngit branch -M main\ngit push -u origin main\n\n3. Upload Future Code Changes\nFor any new files or edits, run:\n\ngit add .\ngit commit -m \"Describe your changes\"\ngit push"
+        },
+        {
+            "x": 565,
+            "y": 199,
+            "height": 749,
+            "width": 1079,
+            "color": "yellow",
+            "title": "How to upload coding files on GitHub",
+            "text": "Summary\nTo create a new GitHub repository and upload your code, you initialize a local Git repository, link it to the remote GitHub repository, and then push your files. For future changes, you only need to add, commit, and push. \n\nStep-by-Step Procedure\n\n1. Create a New Repository on GitHub\nGo to github.com and log in.\nClick the + icon and select \"New repository\". \nName it (e.g., new-project), choose Public/Private, and do not initialize with a README. \nClick \"Create repository\".\n\n2. Initialize and Push Your Local Project\nRun these commands in your project's terminal:\n\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit remote add origin https://github.com/Prateek-9801/new-project.git\ngit branch -M main\ngit push -u origin main\n\n3. Upload Future Code Changes\nFor any new files or edits, run:\n\ngit add .\ngit commit -m \"Describe your changes\"\ngit push"
+        }
+    ]
+}
