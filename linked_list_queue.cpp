@@ -1,10 +1,6 @@
-#include<iostream>
-#include<cstdlib>
-using  namespace std;
 #include <iostream>
 #include <cstdlib>
-
-using namespace std;
+using  namespace std;
 
 struct emp
 {
@@ -73,8 +69,8 @@ void mydel()
 
     node *t;
 
-    t = head->next;      // free(head) in C language
-
+    t = head->next;    
+    delete head;  // free head; in c language
     head = t;
 
     cout << "\nOne record deleted";
